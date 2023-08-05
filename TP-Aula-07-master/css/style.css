@@ -187,11 +187,23 @@ border: none;
 
 .boton:hover {
     cursor: pointer;
+
+    
     /* AÑADE UN EFECTO A TU GUSTO (USANDO UN @KEYFRAMES u otros)*/
 
 }
 
+@keyframes desvanecer {
+from {opacity: 1;}
+to { opacity: 0;}
+ }
 
+ #boton {
+    cursor: pointer;
+    animation: desvanecer ;
+animation-duration: 2s;
+
+ }
 /*crea la clase boton--primario: dale un color de fondo usando tu color --negro*/
 .boton--primario{
     background-color: var(--negro);

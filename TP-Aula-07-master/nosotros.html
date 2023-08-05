@@ -16,24 +16,75 @@
 </head>
 <body>
     <!-- Copia aqui el header del index.html -->
-
+    <header class="header">
+        <div class="contenedor"> <!-- darle a este div la clase "contenedor" -->
+            <div class="barra"> <!-- darle a este div la clase "barra" -->
+                <!-- crear aqui una etiqueta "a" con la clase "logo" y su href debe ser al "index.html" -->
+                <a class="logo" href="index.html">      </a>
+                <!-- colocar dentro, una etiqueta h1 que diga BarberShop, darle las clases logo__nombre , no margin y centrar texto -->
+                <h1 class="logo__nombre no-margin centrar-texto" >BarberShop</h1>
+                <nav class="navigacion"> <!-- darle a este nav la clase "navegacion" -->
+                    <!-- crear 3 etiquetas "a". Dentro, cada una tendran su texto de "nosotros","cursos", "contacto". Cada una debe redireccionar a nosotros.html,cursos.html y contacto.html respectivamente Darle las clases navegacion_enlace -->
+                    <a class="navigacion_enlace" href="nosotros.html">nosotros</a>
+                    <a class="navegacion_enlace" href="cursos.html">cursos</a>
+                    <a class="navegacion_enlace" href="contacto.html">contacto</a>
+                </nav>
+            </div>
+        </div>
+        <div class="header__texto"> <!-- darle a este div la clase "header__texto" -->
+            <!-- crear un h2 que diga "Cuidar tu imagen es nuestro trabajo" y tenga la class no-margin -->
+            <h2 class="no-margin">Cuidar tu imagen es nuestro trabajo</h2>
+            <!-- crear un p que diga "Dejalo en manos de profesionales" y tenga la class no-margin -->
+            <p class="no-margin">Dejalo en manos de profesionales</p>
+        </div>
+    <!-- aqui deberia cerrar tu header-->
+</header>
 
     <!-- crea aqui un main con la clase "contenedor"-->
+    <main class="contenedor">
+
         <!-- crea aqui un h3 con el texto "Sobre Nosotros" y la clase "centrar-texto" -->
+        <h3 class="centrar-texto">Sobre nosotros</h3>
         <!-- crea aqui un article con la clase "sobre-nosotros"-->
+        <article class="sobre-nosotros">
             <!-- crea aqui un div con la clase "sobre-nosotros__imagen" y dentro coloca un img, y usa la imagen sobre-nosotros.jpg-->
-                
+                <div class="sobre-nosotros__imagen">
+                    <img src="img/sobre-nosotros.jpg" alt="">
+                </div>
             <!-- crea aqui un div con la clase "sobre-nosotros__texto y coloca adentro 2 "p" con los textos de lorem -->
-        <!-- aqui deberia cerrar el article-->
+        <div class="sobre-nosotros__texto">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quia, dolores sed, culpa atque magnam qui sapiente repellat in explicabo mollitia asperiores blanditiis, voluptatem corporis tempora? Reiciendis dignissimos necessitatibus recusandae.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, neque. Nihil velit perferendis placeat voluptatum dignissimos, perspiciatis voluptas a quaerat praesentium, molestiae consequatur consectetur ullam pariatur. Libero pariatur neque est.</p>
+        </div>
+            <!-- aqui deberia cerrar el article-->
+            </article>
     <!-- aqui deberia cerrar el main"-->
+    </main>
 
         <!-- crea aqui un footer con la clase "footer"
     coloca dentro el mismo div con la clase contenedor, usado en el header, junto con su contenido dentro del footer
     -->
+    <footer class="footer">
+        
+        <div class="contenedor"> <!-- darle a este div la clase "contenedor" -->
+            <div class="barra"> <!-- darle a este div la clase "barra" -->
+                <!-- crear aqui una etiqueta "a" con la clase "logo" y su href debe ser al "index.html" -->
+                <a class="logo" href="index.html">      </a>
+                <!-- colocar dentro, una etiqueta h1 que diga BarberShop, darle las clases logo__nombre , no margin y centrar texto -->
+                <h1 class="logo__nombre no-margin centrar-texto" >BarberShop</h1>
+                <nav class="navigacion"> <!-- darle a este nav la clase "navegacion" -->
+                    <!-- crear 3 etiquetas "a". Dentro, cada una tendran su texto de "nosotros","cursos", "contacto". Cada una debe redireccionar a nosotros.html,cursos.html y contacto.html respectivamente Darle las clases navegacion_enlace -->
+                    <a class="navegacion_enlace" href="nosotros.html">nosotros</a>
+                    <a class="navegacion_enlace" href="cursos.html">cursos</a>
+                    <a class="navegacion_enlace" href="contacto.html">contacto</a>
+                </nav>
+            </div>
+        </div>  
+    </footer>
 
 
     <!-- Coloca Aqui el footer de index.html -->
-    
+   
     <script src="js/modernizr.js"></script>
 </body>
 </html>

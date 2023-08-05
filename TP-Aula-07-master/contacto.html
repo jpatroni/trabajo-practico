@@ -16,35 +16,92 @@
 </head>
 <body>
     <!-- Copia aqui el header del index.html -->
-
+    <header class="header">
+        <div class="contenedor"> <!-- darle a este div la clase "contenedor" -->
+            <div class="barra"> <!-- darle a este div la clase "barra" -->
+                <!-- crear aqui una etiqueta "a" con la clase "logo" y su href debe ser al "index.html" -->
+                <a class="logo" href="index.html">      </a>
+                <!-- colocar dentro, una etiqueta h1 que diga BarberShop, darle las clases logo__nombre , no margin y centrar texto -->
+                <h1 class="logo__nombre no-margin centrar-texto" >BarberShop</h1>
+                <nav class="navigacion"> <!-- darle a este nav la clase "navegacion" -->
+                    <!-- crear 3 etiquetas "a". Dentro, cada una tendran su texto de "nosotros","cursos", "contacto". Cada una debe redireccionar a nosotros.html,cursos.html y contacto.html respectivamente Darle las clases navegacion_enlace -->
+                    <a class="navigacion_enlace" href="nosotros.html">nosotros</a>
+                    <a class="navegacion_enlace" href="cursos.html">cursos</a>
+                    <a class="navegacion_enlace" href="contacto.html">contacto</a>
+                </nav>
+            </div>
+        </div>
+        <div class="header__texto"> <!-- darle a este div la clase "header__texto" -->
+            <!-- crear un h2 que diga "Cuidar tu imagen es nuestro trabajo" y tenga la class no-margin -->
+            <h2 class="no-margin">Cuidar tu imagen es nuestro trabajo</h2>
+            <!-- crear un p que diga "Dejalo en manos de profesionales" y tenga la class no-margin -->
+            <p class="no-margin">Dejalo en manos de profesionales</p>
+        </div>
+    <!-- aqui deberia cerrar tu header-->
+</header>
 
     <!-- crea aqui un main con la class contenedor -->
-        <h3 >Contacto</h3> <!-- dale la class centrar-texto a este h3, y colocalo adentro del main-->
+    <main class="contenedor">
+
+        <h3 class="centrar-texto" >Contacto</h3> <!-- dale la class centrar-texto a este h3, y colocalo adentro del main-->
 
         <!-- crea aqui un div con la class "contacto-gb", pero no le agregues nada dentro -->
+        <div class="contacto-gb">
+
+        </div>
 
         <!-- crea aqui un formulario: ponle la clase "formulario" 
         dentro, colocaras los div que estan a continuacion -->
+        <form class="formulario" action=""> 
+
         
-            <div> <!-- dale a este div la clase "campo" -->
+            <div class="campo"> <!-- dale a este div la clase "campo" -->
+                <label class="campo__label" for="">nombre</label>
+
                 <!-- crea un label, con la clase "campo__label" y con el texto Nombre -->
+
                 <!-- crea un input del tipo text, con la clase "campo__field" y con el placeholder "Ingrese su nombre" -->
+                <input class="campo__field" type="text" placeholder="ingrese su nombre">
             </div>
-            <div><!-- dale a este div la clase "campo" -->
+            <div class="campo"><!-- dale a este div la clase "campo" -->
                 <!-- crea un label, con la clase "campo label" y con el texto E-mail -->
+                <label for="" class="campo__label">E-mail</label>
                 <!-- crea un input del tipo text, con la clase "campo__field" y con el placeholder "Ingrese su Email" -->
+                <input class="campo__field" placeholder="Ingrese su Email" type="text" name="" id="">
+
             </div>
-            <div ><!-- dale a este div la clase "campo" -->
+            <div class="campo" ><!-- dale a este div la clase "campo" -->
                 <!-- crea un label, con la clase "campo label" y con el texto Mensaje -->
+                <label class="campo__label" for="">Mensaje</label>
                 <!-- crea un textarea, con la clase "campo__field campo__field--textarea" -->
+                <textarea class="campo__field campo__field--textarea" name="" id="" cols="30" rows="10"></textarea>
             </div>
-            <div><!-- dale a este div la clase "campo" -->
+            <div class="campo"><!-- dale a este div la clase "campo" -->
                 <!-- crea un input del tipo submit, con la clase "boton boton--primario" y con el value Enviar -->
+                <input class="boton boton--primario" type="submit" name="" id="" value="Enviar">
             </div>
          <!-- aqui deberia cerrar tu formulario-->
+        </form>
     <!--Aqui deberia cerrar tu main-->
+    </main>
 
 <!-- Coloca Aqui el footer de index.html -->
+<footer class="footer">
+    <div class="contenedor"> <!-- darle a este div la clase "contenedor" -->
+        <div class="barra"> <!-- darle a este div la clase "barra" -->
+            <!-- crear aqui una etiqueta "a" con la clase "logo" y su href debe ser al "index.html" -->
+            <a class="logo" href="index.html">      </a>
+            <!-- colocar dentro, una etiqueta h1 que diga BarberShop, darle las clases logo__nombre , no margin y centrar texto -->
+            <h1 class="logo__nombre no-margin centrar-texto" >BarberShop</h1>
+            <nav class="navigacion"> <!-- darle a este nav la clase "navegacion" -->
+                <!-- crear 3 etiquetas "a". Dentro, cada una tendran su texto de "nosotros","cursos", "contacto". Cada una debe redireccionar a nosotros.html,cursos.html y contacto.html respectivamente Darle las clases navegacion_enlace -->
+                <a class="navegacion_enlace" href="nosotros.html">Nosotros</a>
+                <a class="navegacion_enlace" href="cursos.html">cursos</a>
+                <a class="navegacion_enlace" href="contacto.html">contacto</a>
+            </nav>
+        </div>
+    </div>  
+</footer>
     <script src="js/modernizr.js"></script>
 </body>
 </html>

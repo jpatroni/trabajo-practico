@@ -16,32 +16,111 @@
 </head>
 <body>
     <!-- Copia el header utilizado en index.html-->
+    <header class="header">
+        <div class="contenedor"> <!-- darle a este div la clase "contenedor" -->
+            <div class="barra"> <!-- darle a este div la clase "barra" -->
+                <!-- crear aqui una etiqueta "a" con la clase "logo" y su href debe ser al "index.html" -->
+                <a class="logo" href="index.html">      </a>
+                <!-- colocar dentro, una etiqueta h1 que diga BarberShop, darle las clases logo__nombre , no margin y centrar texto -->
+                <h1 class="logo__nombre no-margin centrar-texto" >BarberShop</h1>
+                <nav class="navigacion"> <!-- darle a este nav la clase "navegacion" -->
+                    <!-- crear 3 etiquetas "a". Dentro, cada una tendran su texto de "nosotros","cursos", "contacto". Cada una debe redireccionar a nosotros.html,cursos.html y contacto.html respectivamente Darle las clases navegacion_enlace -->
+                    <a class="navigacion_enlace" href="nosotros.html">nosotros</a>
+                    <a class="navegacion_enlace" href="cursos.html">cursos</a>
+                    <a class="navegacion_enlace" href="contacto.html">contacto</a>
+                </nav>
+            </div>
+        </div>
+        <div class="header__texto"> <!-- darle a este div la clase "header__texto" -->
+            <!-- crear un h2 que diga "Cuidar tu imagen es nuestro trabajo" y tenga la class no-margin -->
+            <h2 class="no-margin">Cuidar tu imagen es nuestro trabajo</h2>
+            <!-- crear un p que diga "Dejalo en manos de profesionales" y tenga la class no-margin -->
+            <p class="no-margin">Dejalo en manos de profesionales</p>
+        </div>
+    <!-- aqui deberia cerrar tu header-->
+</header>
 
 
     <!-- crear el main, con la clase contenedor-->
-        <h3 >Nuestros Próximos Cursos y Talleres</h3> <!-- coloca este h3 dentro del main y agregale la clase "centrar-texto" -->
+    <main class="contenedor" >
+        <h3 class="centrar-texto">Nuestros Próximos Cursos y Talleres</h3> <!-- coloca este h3 dentro del main y agregale la clase "centrar-texto" -->
 
         <!-- crea un article con la clase "curso". Dentro, deberas crear 2 div: el primero contiene la clase "curso__imagen" y dentro la etiqueta img con la img3.jpg
         el segundo div contiene la clase "curso__informacion" . dentro tiene un h4, con el texto "Corte de cabello" 
         y 3 etiquetas p: las 2 primeras tienen la clase "widget-curso__label" , y su contenido son "Precio: Primer mes gratis!!!" y 
         "cupo:20" , respectivamente. El tercero tiene la clase "curso__descripcion" y dentro el texto de "lorem"
         -->
+        <article class="curso"> 
+            <div class="curso__imagen">
+            <img src="img/img3.png" alt="" >
+
+            </div>
+            <div class="curso__informacion">
+                <h4>Corte de cabello</h4>
+                <p class="widget-curso">Precio: Primer mes gratis!!</p>
+                <p class="widget-curso">Cupo 20</p>
+                    <p class="curso__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti voluptates ut accusamus minima dolorum ratione? Ipsa nihil sunt quae et aliquam maiores tempora voluptates corporis itaque harum, assumenda fuga eveniet!</p>        
+ </div>
+
+        </article>
 
         <!-- crea otro article con la clase "curso". Dentro, deberas crear 2 div: el primero contiene la clase "curso__imagen" y dentro la etiqueta img con la img4.jpg
         el segundo div contiene la clase "curso__informacion" . dentro tiene un h4, con el texto "Afeitado y perfilado" 
         y 3 etiquetas p: las 2 primeras tienen la clase "widget-curso__label" , y su contenido son "Precio: Primer mes gratis!!!" y 
         "cupo:20" , respectivamente. El tercero tiene la clase "curso__descripcion" y dentro el texto de "lorem"
         -->
+        <article class="curso">
+            <div class="cruso__imagen"> 
+                <img src="img/img4.jpg" alt="">
+
+            </div>
+            <div class="curso__informacion">
+                <h4>Afeitado y perfilado</h4>
+                <p class="widget-curso__label">Precio: Primer mes gratis!!! </p>
+                <p class="widget-curso__label">Cupo: 20</p>
+                <p class="curso__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quia doloribus quidem dolore corporis esse sint labore excepturi. Quasi corrupti fugit et voluptatibus sed dicta sequi eum similique, nulla provident.</p>
+
+            </div>
+        </article>
 
         <!-- crea el utimo article con la clase "curso". Dentro, deberas crear 2 div: el primero contiene la clase "curso__imagen" y dentro la etiqueta img con la img5.jpg
         el segundo div contiene la clase "curso__informacion" . dentro tiene un h4, con el texto "Curso completo: Corte y afeitado" 
         y 3 etiquetas p: las 2 primeras tienen la clase "widget-curso__label" , y su contenido son "Precio: Primer mes gratis!!!" y 
         "cupo:20" , respectivamente. El tercero tiene la clase "curso__descripcion" y dentro el texto de "lorem"
         -->
+        <article class="curso">
+            <div class="curso__imagen">
+                <img src="img/img5.jpg" alt="">
+
+            </div>
+            <div class="curso__informacion">
+                <h4>Curso completo: Corte y afeitado</h4>
+                <p class="widget-curso__label">Precio: primer mes gratis!!!</p>
+                <p class="widget-curso__label">Cupo:20</p>
+                <p class="curso__descripcion">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur quidem saepe atque cumque nostrum nesciunt reprehenderit deserunt amet, eius fuga est odit ut? Magni doloribus quisquam a ea sit est?</p>
+                
+            </div>
+        </article>
 
     </main> <!--Aqui deberia cerrar el main-->
 
     <!--Copia el footer utilizado en index.html-->
+    <footer class="footer">
+        <div class="contenedor"> <!-- darle a este div la clase "contenedor" -->
+            <div class="barra"> <!-- darle a este div la clase "barra" -->
+                <!-- crear aqui una etiqueta "a" con la clase "logo" y su href debe ser al "index.html" -->
+                <a class="logo" href="index.html">      </a>
+                <!-- colocar dentro, una etiqueta h1 que diga BarberShop, darle las clases logo__nombre , no margin y centrar texto -->
+                <h1 class="logo__nombre no-margin centrar-texto" >BarberShop</h1>
+                <nav class="navigacion"> <!-- darle a este nav la clase "navegacion" -->
+                    <!-- crear 3 etiquetas "a". Dentro, cada una tendran su texto de "nosotros","cursos", "contacto". Cada una debe redireccionar a nosotros.html,cursos.html y contacto.html respectivamente Darle las clases navegacion_enlace -->
+                    <a class="navegacion_enlace" href="nosotros.html">nosotros</a>
+                    <a class="navegacion_enlace" href="cursos.html">cursos</a>
+                    <a class="navegacion_enlace" href="contacto.html">contacto</a>
+                </nav>
+            </div>
+        </div>  
+    </footer>
     
     <script src="js/modernizr.js"></script>
 </body>
