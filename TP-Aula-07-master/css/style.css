@@ -293,16 +293,22 @@ dale una altura de 40rem, un background-size cover y background-repeat que sea n
     height: 40rem;
     background-size: cover;
     background-repeat: no-repeat;
+}
+    
+    .contacto-gb {
+        display: flex;
+        justify-content: center;
+    }
 
 /* crea la clase formulario: dale un fondo con la variable --blanco, un margin de: -5rem auto 0 auto
 agrega que su ancho sea del 95% y que el padding sea de 5rem*/
-.formulario{
+
+.formulario {
     background-color: var(--blanco);
     margin: -5rem auto 0 auto;
     width: 95% ;
     padding: 5rem;
-    
-}
+    }
 
 .campo {
     display: flex;
